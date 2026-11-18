@@ -1,0 +1,37 @@
+<!--
+  G1 text-legibility sample (review §5.2: subtitles at 1.2 m with x-height >= 0.6 deg,
+  about 13 mm). UIKit units are centimetres; the node is placed at scale 1.
+  Plain ASCII only (local MSDF font).
+-->
+<style>
+  .root {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.2;
+    padding-bottom: 1.2;
+    padding-left: 2.6;
+    padding-right: 2.6;
+    border-radius: 1.4;
+    background-color: rgba(8, 10, 14, 0.72);
+  }
+
+  .line {
+    font-size: 3.2;
+    font-weight: 500;
+    line-height: 1.25;
+    color: rgba(255, 246, 228, 0.96);
+    text-align: center;
+  }
+
+  .status {
+    margin-top: 0.8;
+    font-size: 1.6;
+    line-height: 1.2;
+    color: rgba(180, 200, 220, 0.85);
+    text-align: center;
+  }
+</style>
+<div class="root">
+  <div id="subtitle" class="line">Nila: "Each stamp had a little river in it."</div>
+  <div id="status" class="status">G1 proof - hold the sealing near the lamp</div>
+</div>
